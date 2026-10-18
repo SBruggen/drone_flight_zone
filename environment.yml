@@ -1,0 +1,11 @@
+﻿name: drone-flight-zone
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - geopandas>=1.0,<2
+  - shapely>=2.0,<3
+  - pyproj>=3.6,<4
+  - pyogrio>=0.9,<1
+  - gdal>=3.8,<4

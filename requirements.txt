@@ -1,0 +1,9 @@
+﻿# Python 3.11 recommended. Direct dependencies for kmz_to_gpkg.py.
+# These are compatible version ranges, not a complete environment lock file.
+geopandas>=1.0,<2
+shapely>=2.0,<3
+pyproj>=3.6,<4
+# GeoPackage read/write engine; explicitly included for file I/O.
+pyogrio>=0.9,<1
+# Optional raster output requires the external gdal_rasterize command.
+# Use environment.yml for a conda environment including GDAL.

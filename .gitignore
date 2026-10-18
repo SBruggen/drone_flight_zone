@@ -1,0 +1,40 @@
+# Local flight plans and generated results
+/data/
+/output/
+/merge_test_*/
+
+# Geodata and mission archives outside the standard data/output folders
+*.kmz
+*.gpkg
+*.gpkg-shm
+*.gpkg-wal
+*.tif
+*.tiff
+*.aux.xml
+
+# Python caches, environments and local configuration
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# QGIS backups (keep the reusable .qml styles)
+*.qgs~
+*.qgz~
+*.qml~
