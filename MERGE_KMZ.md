@@ -106,23 +106,6 @@ actietypen worden geweigerd. Alle bronnen moeten hetzelfde vertrekhoogteniveau
 veronderstellen; dat kan niet uit deze exports worden bewezen. Punten worden
 niet verwijderd of geoptimaliseerd, ook niet wanneer ze samenvallen.
 
-## Aangemaakte testbestanden
-
-De submappen van `data/` zijn behouden onder `output/merged/`. Elke submap bevat
-`Mavic3T_merged.kmz` en een rapport met bronhashes, waypointbereiken,
-verbindingsafstanden en toegepaste instellingen.
-
-| Dataset | Bronmissies | Waypoints | Fotoacties | Afstand bij benadering |
-| --- | ---: | ---: | ---: | ---: |
-| Campus_Diepenbeek_forest_track_2026-09-18 | 17 | 1608 | 1608 | 26,67 km |
-| wandelpad_60m_2026-09-23 | 5 | 424 | 0 | 10,54 km |
-| ZOL_zone_1_2026-09-24 | 10 | 912 | 912 | 15,08 km |
-| ZOL_zone_2_2026-09-22 | 6 | 536 | 536 | 8,93 km |
-
-Zone 1 vraagt alleen al op basis van afstand/6 m/s ongeveer 42 minuten, zonder
-stops, camera-afhandeling, vertrek en terugvlucht. Eén bestand is geen garantie
-voor één batterij. Voor het wandelpad wordt geen fotografie toegevoegd.
-
 ## Controleren in DJI Pilot 2
 
 Importeer eerst de variant met twee bestaande missies in de vluchtbibliotheek
